@@ -61,28 +61,28 @@ namespace Lesson4
 
             //10
 
-            //Goods [] arrG = new Goods [3];
+            Goods[] arrG = new Goods[3];
 
-            //arrG[0].name = "tovar1";
-            //arrG[0].date = "01-11-2015";
-            //arrG[0].mass = 5.0;
-            //arrG[0].cost = 29.9;
-            //arrG[0].vendor = "Vendor1";
-            //arrG[0].save = 14;
+            arrG[0].name = "tovar1";
+            arrG[0].date = "01-11-2015";
+            arrG[0].mass = 5.0;
+            arrG[0].cost = 29.9;
+            arrG[0].vendor = "Vendor1";
+            arrG[0].save = 14;
 
-            //arrG[1].name = "tovar2";
-            //arrG[1].date = "25-09-2015";
-            //arrG[1].mass = 3.2;
-            //arrG[1].cost = 45.5;
-            //arrG[1].vendor = "Vendor2";
-            //arrG[1].save = 48;
+            arrG[1].name = "tovar2";
+            arrG[1].date = "25-09-2015";
+            arrG[1].mass = 3.2;
+            arrG[1].cost = 45.5;
+            arrG[1].vendor = "Vendor2";
+            arrG[1].save = 48;
 
-            //arrG[2] = new Goods("Tovar3", "13-12-2015", 8.8, 99.9, "Vendor3", 60);
+            arrG[2] = new Goods("Tovar3", "13-12-2015", 8.8, 99.9, "Vendor3", 60);
 
-            //foreach (Goods i in arrG)
-            //{
-            //    Console.WriteLine(i.name + ' ' + i.date + ' ' + i.mass + ' ' + i.cost + ' ' + i.vendor + ' ' + i.save);
-            //}
+            foreach (Goods i in arrG)
+            {
+                Console.WriteLine(i.name + ' ' + i.date + ' ' + i.mass + ' ' + i.cost + ' ' + i.vendor + ' ' + i.save);
+            }
 
 
 
